@@ -1,0 +1,28 @@
+.arena {
+    width: 588px;
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+}
+
+.arena__cube {
+    width: 84px;
+    height: 84px;
+    background-color: #815B3F;
+    border: 1px solid #6B4D37;
+    position: relative;
+}
+
+.arena__tree {
+    top: -130px;
+    left: -32px;
+}
+
+.arena__pumpking {
+    top: -30px;
+    left: -5.7px;
+}
+
+.arena__protagonist {
+    top: -20px;
+    left: 6px;
+}

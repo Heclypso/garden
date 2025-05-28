@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    position: absolute;
+    z-index: 1;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    background-color: #8C6243;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
